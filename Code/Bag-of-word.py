@@ -36,5 +36,6 @@ for text in test_data:
 ['CLOTHING']
 ['CLOTHING']
 ['BOOKS']
+
 ['CLOTHING']
 '''
