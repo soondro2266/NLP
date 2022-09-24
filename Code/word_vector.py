@@ -13,7 +13,7 @@ x = ["i love the book",
 y = [Category.BOOKS, Category.BOOKS, Category.CLOTHING, Category.CLOTHING]
 
 nlp = spacy.load("en_core_web_lg") #model of the word vectors 
-doc = [nlp(text) for text in x] #build the vector of each sentence
+doc = [nlp(text) for text in x] #build the word vectors of each sentence
 
 clf_svm = svm.SVC(kernel="linear") #build a classifier
 clf_svm.fit([x.vector for x in doc], y)
