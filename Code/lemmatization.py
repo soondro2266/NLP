@@ -9,7 +9,7 @@ def get_wordnet_pos(word):
     return tag
 
 lemmatizer = WordNetLemmatizer()
-phrase = "The striped bats are hang on their feet for best"
+phrase = "The striped bats are hanging on their feet for best"
 words = word_tokenize(phrase)
 
 lemmatized_words = []
