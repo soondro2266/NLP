@@ -18,6 +18,7 @@ graph TD;
 在一群句子中，可以將所有字列成一個清單(Bag),再用向量來表示每一個句子出現每一個字的數量(向量長度為清單大小)。
 
 ### 舉例
+
 ```python=
 #data
 "i love the book"
@@ -580,7 +581,7 @@ Sentiment(polarity=-1.0, subjectivity=1.0)
 '''
 ```
 correct the misspelling
-```python=
+```python
 from textblob import TextBlob
 
 phrase = "thje bookk was horrriblee"
@@ -593,6 +594,10 @@ print(tb_phrase.correct())
 '''
 the book was horrible
 '''
+```
+```cpp
+int seg[4][4*N],seg2[4][4*N],lzadd[4][4*N],lzmod[4][4*N];
+bool mod[4][4*N],mod2[4][4*N];
 ```
 因為看到這個神奇的correct功能，所以就心血來潮了試了之前看過的文章:
 ```
